@@ -46,7 +46,7 @@ or you can use your prefer extension to your browser for example [ RestMan for o
 > Note: if you want to send data in Body Format (form-data) so you must remove `Content-Type` from Header
 
 ## Program's Output
-![N|Solid](https://preview.ibb.co/kqOrbL/image.png)
+![N|Solid](https://preview.ibb.co/dLUQ30/image.png)
 
 # Resources / References
 ##### public API about list of countries 
@@ -55,7 +55,8 @@ or you can use your prefer extension to your browser for example [ RestMan for o
 
 JWT-Auth  [ Documentation of jwt-auth](https://jwt-auth.readthedocs.io/en/develop/laravel-installation/) && [Repo of jwt-auth](https://github.com/tymondesigns/jwt-auth/)
 
-Tutorial on how to use JWT-Auth in Laravel  [youtub linke](https://www.youtube.com/watch?v=l201RSQ7Ti4)
+Unirest is a set of lightweight HTTP libraries available in multiple languages. i used this library to get json data from another Public API witch is list of all countries in the world  [unirest php library](http://unirest.io/php.html)
+to install it using composer `composer require mashape/unirest-php`
 
 
 # License 
