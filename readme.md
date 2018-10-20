@@ -39,8 +39,8 @@ or you can use your prefer extension to your browser for example [ RestMan for o
 ## Start using API
 | Name       | Method   | URL  							   | Header  													   | Body  |
 | :----------: |:--------:| :--------------------------------: | :--------------------------------------------------------------:| :-----:|
-| Login      | POST 	| http://sooleklab.me/api/login    | `Content-Type`: application/json <br> `Accept`: application/json | Required Data: (email, password) <br> Optional Data: (null) |
-| Register   | POST 	| http://sooleklab.me/api/register | `Content-Type`: application/json <br> `Accept`: application/json | Required Data: (name, email, password, password_confirmation) <br> Optional Data: (null)  |
+| Login      | POST 	| http://sooleklab.me/api/login    | `Content-Type`: application/json <br> `Accept`: application/json | `Required Data`: (email, password) <br> `Optional Data`: (null) |
+| Register   | POST 	| http://sooleklab.me/api/register | `Content-Type`: application/json <br> `Accept`: application/json | `Required Data`: (name, email, password, password_confirmation) <br> `Optional Data`: (null)  |
 | Area 		 | GET  	| http://sooleklab.me/api/area     | `Content-Type`: application/json <br> `Accept`: application/json <br> `Authorization`: Bearer Token-Here |  null  |
 
 
