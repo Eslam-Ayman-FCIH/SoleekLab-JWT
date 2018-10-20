@@ -1,7 +1,7 @@
 # Documentation of Malhoza (LARAVEL PHP)
 ## About
 This project is  for testing my skills in `RESTFul API` & `Auth JWT` with Laravel  .
-`SooleLab` is a RESTful API Project with 3 APIs for mobile app to help to get all countries with thier area in `KM<sup>2</sup>`
+`SooleLab` is a RESTful API Project with 3 APIs for mobile app to help to get all countries with thier area in `KM <sup>2</sup>`
 
 ## To Run
 ### You will need:
