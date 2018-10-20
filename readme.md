@@ -37,13 +37,25 @@ or you can use your prefer extension to your browser for example [ RestMan for o
     -  It is the key that will be used to sign your tokens. How that happens exactly will depend on the algorithm that you choose to use.
 
 ## Start using API
-| Name       | Method   | URL  							   | Header  													   | Body ( **RAW** ) not (form-data) |
+| Name       | Method   | URL                              | Header                                                        | Body ( **RAW** ) not (form-data) |
 | :----------: |:--------:| :--------------------------------: | :--------------------------------------------------------------:| :-----:|
-| Login      | POST 	| http://soleeklab.me/api/login    | `Content-Type`: application/json <br> `Accept`: application/json | `Required Data`: (email, password) <br> `Optional Data`: (null) |
-| Register   | POST 	| http://soleeklab.me/api/register | `Content-Type`: application/json <br> `Accept`: application/json | `Required Data`: (name, email, password, password_confirmation) <br> `Optional Data`: (null)  |
-| Area 		 | GET  	| http://soleeklab.me/api/area     | `Content-Type`: application/json <br> `Accept`: application/json <br> `Authorization`: Bearer <Token-Here> |  null  |
+| Login      | POST     | http://soleeklab.me/api/login    | `Content-Type`: application/json <br> `Accept`: application/json | `Required Data`: (email, password) <br> `Optional Data`: (null) |
+| Register   | POST     | http://soleeklab.me/api/register | `Content-Type`: application/json <br> `Accept`: application/json | `Required Data`: (name, email, password, password_confirmation) <br> `Optional Data`: (null)  |
+| Area       | GET      | http://soleeklab.me/api/area     | `Content-Type`: application/json <br> `Accept`: application/json <br> `Authorization`: Bearer <Token-Here> |  null  |
 
-> Note if you want to send data in Body of type (form-data) so you must remove `Content-Type` from Header
+> Note: if you want to send data in Body Format (form-data) so you must remove `Content-Type` from Header
+
+## Program's Output
+![N|Solid](https://preview.ibb.co/kqOrbL/image.png)
+
+# Resources / References
+##### public API about list of countries 
+- [ market.mashape ](https://market.mashape.com/fayder/rest-countries-v1#get-all-countries)
+- [ country.io ](http://country.io/data/)
+
+JWT-Auth  [ Documentation of jwt-auth](https://jwt-auth.readthedocs.io/en/develop/laravel-installation/) && [Repo of jwt-auth](https://github.com/tymondesigns/jwt-auth/)
+
+Tutorial on how to use JWT-Auth in Laravel  [youtub linke](https://www.youtube.com/watch?v=l201RSQ7Ti4)
 
 
 # License 
