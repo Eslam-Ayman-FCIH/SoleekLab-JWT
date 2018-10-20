@@ -41,8 +41,9 @@ or you can use your prefer extension to your browser for example [ RestMan for o
 | :----------: |:--------:| :--------------------------------: | :--------------------------------------------------------------:| :-----:|
 | Login      | POST 	| http://sooleklab.me/api/login    | `Content-Type`: application/json <br> `Accept`: application/json | `Required Data`: (email, password) <br> `Optional Data`: (null) |
 | Register   | POST 	| http://sooleklab.me/api/register | `Content-Type`: application/json <br> `Accept`: application/json | `Required Data`: (name, email, password, password_confirmation) <br> `Optional Data`: (null)  |
-| Area 		 | GET  	| http://sooleklab.me/api/area     | `Content-Type`: application/json <br> `Accept`: application/json <br> `Authorization`: Bearer Token-Here |  null  |
+| Area 		 | GET  	| http://sooleklab.me/api/area     | `Content-Type`: application/json <br> `Accept`: application/json <br> `Authorization`: Bearer <Token-Here> |  null  |
 
+> Note if you want to send data in Body of type (form-data) so you must remove `Content-Type` from Header
 
 
 # License 
