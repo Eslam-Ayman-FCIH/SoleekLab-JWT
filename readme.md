@@ -37,7 +37,7 @@ or you can use your prefer extension to your browser for example [ RestMan for o
     -  It is the key that will be used to sign your tokens. How that happens exactly will depend on the algorithm that you choose to use.
 
 ## Start using API
-| Name       | Method   | URL  							   | Header  													   | Body  |
+| Name       | Method   | URL  							   | Header  													   | Body ( **RAW** ) not (form-data) |
 | :----------: |:--------:| :--------------------------------: | :--------------------------------------------------------------:| :-----:|
 | Login      | POST 	| http://sooleklab.me/api/login    | `Content-Type`: application/json <br> `Accept`: application/json | `Required Data`: (email, password) <br> `Optional Data`: (null) |
 | Register   | POST 	| http://sooleklab.me/api/register | `Content-Type`: application/json <br> `Accept`: application/json | `Required Data`: (name, email, password, password_confirmation) <br> `Optional Data`: (null)  |
