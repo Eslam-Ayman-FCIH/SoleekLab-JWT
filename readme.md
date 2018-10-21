@@ -35,13 +35,15 @@ or you can use your prefer extension to your browser for example [ RestMan for o
     - `php artisan jwt:secret`
     -  This will update your .env file with something like JWT_SECRET=foobar
     -  It is the key that will be used to sign your tokens. How that happens exactly will depend on the algorithm that you choose to use.
+10. run this command `php artisan serve`
+    - open your browser on this link <http://127.0.0.1:8000>
 
 ## Start using API
 | Name       | Method   | URL                              | Header                                                        | Body ( **RAW** ) not (form-data) |
 | :----------: |:--------:| :--------------------------------: | :--------------------------------------------------------------:| :-----:|
-| Login      | POST     | http://soleeklab.me/api/login    | `Content-Type`: application/json <br> `Accept`: application/json | `Required Data`: (email, password) <br> `Optional Data`: (null) |
-| Register   | POST     | http://soleeklab.me/api/register | `Content-Type`: application/json <br> `Accept`: application/json | `Required Data`: (name, email, password, password_confirmation) <br> `Optional Data`: (null)  |
-| Area       | GET      | http://soleeklab.me/api/area     | `Content-Type`: application/json <br> `Accept`: application/json <br> `Authorization`: Bearer <Token-Here> |  null  |
+| Login      | POST     | http://127.0.0.1:8000/api/login    | `Content-Type`: application/json <br> `Accept`: application/json | `Required Data`: (email, password) <br> `Optional Data`: (null) |
+| Register   | POST     | http://127.0.0.1:8000/api/register | `Content-Type`: application/json <br> `Accept`: application/json | `Required Data`: (name, email, password, password_confirmation) <br> `Optional Data`: (null)  |
+| Area       | GET      | http://127.0.0.1:8000/api/area     | `Content-Type`: application/json <br> `Accept`: application/json <br> `Authorization`: Bearer <Token-Here> |  null  |
 
 > Note: if you want to send data in Body Format (form-data) so you must remove `Content-Type` from Header
 
